@@ -62,7 +62,6 @@ PKGS=(
 'xorg-xkill'
 'xorg-xinit'
 'xterm'
-'plasma-desktop' # KDE Load second
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
 'ark' # compression
@@ -70,7 +69,6 @@ PKGS=(
 'autoconf' # build
 'automake' # build
 'base'
-'bash-completion'
 'bind'
 'binutils'
 'bison'
@@ -78,18 +76,14 @@ PKGS=(
 'bluez'
 'bluez-libs'
 'bluez-utils'
-'breeze'
-'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
 'celluloid' # video players
 'cmatrix'
-'code' # Visual Studio code
 'cronie'
 'cups'
 'dialog'
 'discover'
-'dolphin'
 'dosfstools'
 'dtc'
 'efibootmgr' # EFI boot
@@ -103,7 +97,6 @@ PKGS=(
 'fuseiso'
 'gamemode'
 'gcc'
-'gimp' # Photo editing
 'git'
 'gparted' # partition management
 'gptfdisk'
@@ -118,16 +111,8 @@ PKGS=(
 'iptables-nft'
 'jdk-openjdk' # Java 17
 'kate'
-'kcodecs'
-'kcoreaddons'
-'kdeplasma-addons'
-'kde-gtk-config'
-'kinfocenter'
-'kscreen'
-'kvantum-qt5'
 'kitty'
 'konsole'
-'kscreen'
 'layer-shell-qt'
 'libdvdcss'
 'libnewt'
@@ -156,8 +141,6 @@ PKGS=(
 'patch'
 'picom'
 'pkgconf'
-'plasma-meta'
-'plasma-nm'
 'powerdevil'
 'powerline-fonts'
 'print-manager'
@@ -170,8 +153,6 @@ PKGS=(
 'python-pip'
 'qemu'
 'rsync'
-'sddm'
-'sddm-kcm'
 'snapper'
 'spectacle'
 'steam'
@@ -193,13 +174,10 @@ PKGS=(
 'wine-gecko'
 'wine-mono'
 'winetricks'
-'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
 'zip'
 'zsh'
-'zsh-syntax-highlighting'
-'zsh-autosuggestions'
 )
 
 for PKG in "${PKGS[@]}"; do
