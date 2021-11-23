@@ -62,7 +62,6 @@ PKGS=(
 'xorg-xkill'
 'xorg-xinit'
 'xterm'
-'plasma-desktop' # KDE Load second
 'alsa-plugins' # audio plugins
 'alsa-utils' # audio utils
 'ark' # compression
@@ -78,8 +77,6 @@ PKGS=(
 'bluez'
 'bluez-libs'
 'bluez-utils'
-'breeze'
-'breeze-gtk'
 'bridge-utils'
 'btrfs-progs'
 'celluloid' # video players
@@ -120,11 +117,8 @@ PKGS=(
 'kate'
 'kcodecs'
 'kcoreaddons'
-'kdeplasma-addons'
-'kde-gtk-config'
 'kinfocenter'
 'kscreen'
-'kvantum-qt5'
 'kitty'
 'konsole'
 'kscreen'
@@ -156,8 +150,6 @@ PKGS=(
 'patch'
 'picom'
 'pkgconf'
-'plasma-meta'
-'plasma-nm'
 'powerdevil'
 'powerline-fonts'
 'print-manager'
@@ -193,7 +185,6 @@ PKGS=(
 'wine-gecko'
 'wine-mono'
 'winetricks'
-'xdg-desktop-portal-kde'
 'xdg-user-dirs'
 'zeroconf-ioslave'
 'zip'
